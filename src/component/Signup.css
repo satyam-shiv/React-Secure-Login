@@ -1,0 +1,98 @@
+/* General Styles */
+.mainP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; /* Limit the maximum width for better responsiveness */
+    background: hsla(204, 35%, 92%, 0.5); /* Slightly more opaque background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Adjusted for better spacing */
+}
+
+.text {
+    font-size: 36px; /* Larger font size for emphasis */
+    color: #333; /* Darker color for better readability */
+    font-weight: 600; /* Bold font weight */
+}
+
+/* Input Styles */
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Reduced gap for a more compact look */
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #00bcd4; /* Bottom border for input focus */
+    padding: 5px; /* Padding for spacing */
+}
+
+.input img {
+    height: 24px; /* Smaller icon size */
+    width: 24px;
+    margin-right: 10px; /* Spacing between icon and input */
+}
+
+.input input, .input select {
+    height: 40px; /* Increased height for better user interaction */
+    width: calc(100% - 40px); /* Adjust width to accommodate icon */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0 10px; /* Padding inside input */
+    font-size: 16px; /* Increase font size */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Submit Button Styles */
+.submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-container button {
+    background-color: #00bcd4; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 18px; /* Larger font size for better readability */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.submit-container button:hover {
+    background-color: #0097a7; /* Darker shade on hover */
+}
+
+/* Phone Image Styles */
+.phoneImage {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}

@@ -1,0 +1,72 @@
+.main-Home {
+  background-image: url('../Assets/homelogo.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  background-color: hsla(204, 35%, 92%, 0.5); 
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.phone-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.signup1-button, .submit1-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.signup1-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.submit1-button {
+  background-color: #008CBA; 
+  color: white;
+}
+
+.signup1-button:hover, .submit1-button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,50 @@
+.main-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .dashboard {
+    width: 100%;
+    background-color: rgb(228, 210, 210);
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically if they are not of the same height */
+    width: 98%;
+    height: 200px; /* Set a fixed height */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Position relative for absolute positioning of images */
+    margin-top: 8px;
+    margin-left: 8px;
+    border: 2px solid black;
+    border-radius: 3rem;
+  }
+  
+  .banner-image {
+    height: 100%; /* Ensure the image takes the full height of the banner */
+    width: 100%; /* Ensure the image takes the full width of the banner */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    position: absolute; /* Position absolutely to allow for transitions */
+    transition: opacity 1s ease-in-out; /* Smooth transition for fade effect */
+  }
+  
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+    gap: 10px; /* Space between images */
+    margin-top: 20px; /* Space above the icons section */
+    width: 100%; /* Adjust width to fit the content */
+    margin-left: 5px;
+  }
+  
+  .icon-image {
+    width: 85%; /* Make each image take up the full width of the grid cell */
+    height: 140px; /* Set a fixed height for each image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 4px; /* Optional: add rounded corners */
+  }
+  
